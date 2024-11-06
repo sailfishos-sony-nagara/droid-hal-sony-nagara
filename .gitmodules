@@ -9,7 +9,7 @@
 	url = https://github.com/mer-hybris/libhybris.git
 [submodule "hybris/hybris-boot"]
 	path = hybris/hybris-boot
-	url = https://github.com/mer-hybris/hybris-boot.git
+	url = https://github.com/sailfishos-sony-nagara/hybris-boot
 [submodule "hybris/busybox"]
 	path = hybris/busybox
 	url = https://github.com/mer-hybris/android_external_busybox_prebuilt.git
