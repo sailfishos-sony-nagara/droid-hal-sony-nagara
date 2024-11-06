@@ -21,3 +21,6 @@
 	path = hybris/selinux_stubs
 	url = https://github.com/mer-hybris/android_external_selinux_stubs
 	branch = hybris-20.0
+[submodule "kernel/sony/msm-5.15/kernel"]
+	path = kernel/sony/msm-5.15/kernel
+	url = https://github.com/sailfishos-sony-nagara/android_kernel_sony_msm.git
