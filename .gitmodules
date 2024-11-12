@@ -24,3 +24,6 @@
 [submodule "kernel/sony/msm-5.15/kernel"]
 	path = kernel/sony/msm-5.15/kernel
 	url = https://github.com/sailfishos-sony-nagara/android_kernel_sony_msm.git
+[submodule "mw/parse-android-dynparts"]
+	path = mw/parse-android-dynparts
+	url = https://github.com/mlehtima/parse-android-dynparts.git
