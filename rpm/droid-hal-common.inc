@@ -6,9 +6,11 @@
 
 %define droid_target_aarch64 1
 
-%define have_custom_img_boot 1
-%define have_custom_img_recovery 1
-%define have_custom_vendor_boot 1
+%define installable_zip 1
+
+#define have_custom_img_boot 1
+#define have_custom_img_recovery 1
+#define have_custom_vendor_boot 1
 
 %define enable_dtbo_update 1
 %define enable_vendor_boot_update 1
@@ -20,7 +22,7 @@
 
 # On Android 8+ the system partition is (intended to be) mounted on /.
 %define makefstab_skip_entries / /product /system /system_ext /vendor
-Requires: droid-system-%{device}
+#Requires: droid-system-%{device}
 
 %define pre_actions /bin/sh setup-sources.sh
 
