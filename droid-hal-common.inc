@@ -21,7 +21,7 @@
 %{nil}
 
 # On Android 8+ the system partition is (intended to be) mounted on /.
-%define makefstab_skip_entries / /product /system /system_ext /vendor
+%define makefstab_skip_entries / /odm /product /system /system_ext /vendor /vendor_dlkm
 #Requires: droid-system-%{device}
 
 %define pre_actions /bin/sh setup-sources.sh
