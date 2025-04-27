@@ -24,15 +24,12 @@
 %define makefstab_skip_entries / /odm /product /system /system_ext /vendor /vendor_dlkm
 #Requires: droid-system-%{device}
 
-%define pre_actions /bin/sh setup-sources.sh
-
 %define droid_src_build 1
 
 %define straggler_files \
 /bugreports\
 /cache\
 /d\
-/persist\
 /sdcard\
 %{nil}
 
